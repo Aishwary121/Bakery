@@ -127,14 +127,17 @@ body {
     transition: 0.3s;
 }
 
-/* Hero Section */
+/* Update hero section CSS */
 .hero {
     margin-top: 80px;
     min-height: 90vh;
     background: linear-gradient(135deg, var(--light-bg) 0%, #FFE4E1 100%);
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    padding: 2rem 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-content {
@@ -203,21 +206,18 @@ body {
     animation: slideInRight 1s ease;
 }
 
-.image-placeholder {
+.hero-image img {
     width: 400px;
     height: 400px;
-    background: var(--white);
+    object-fit: cover;
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: var(--shadow);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
     animation: float 3s ease-in-out infinite;
 }
 
-.image-placeholder i {
-    font-size: 150px;
-    color: var(--secondary-color);
+/* Remove the old .image-placeholder styles and use these */
+.image-placeholder {
+    display: none;
 }
 
 /* Features Section */
@@ -937,6 +937,12 @@ body {
 
     .hero-buttons {
         justify-content: center;
+    }
+
+    .hero-image img {
+        width: 300px;
+        height: 300px;
+        margin-top: 2rem;
     }
 
     .about-content,
