@@ -1,0 +1,11 @@
+{
+  "name": "sweet-dreams-bakery",
+  "version": "1.0.0",
+  "description": "A beautiful bakery website",
+  "scripts": {
+    "start": "live-server"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  }
+}
