@@ -160,7 +160,7 @@ const menuItems = [
         price: 6.99,
         description: "Warm cinnamon rolls with cream cheese glaze",
         badge: "Hot",
-        image: "https://images.unsplash.com/photo-1609126979532-27fa9e24d1b0?w=400&h=300&fit=crop"
+        image: "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=400&h=300&fit=crop"
     }
 ];
 
