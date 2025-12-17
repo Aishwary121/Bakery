@@ -1,4 +1,4 @@
-// Menu Items Data
+// Menu Items Data with Online Images
 const menuItems = [
     {
         id: 1,
@@ -7,7 +7,7 @@ const menuItems = [
         price: 4.99,
         description: "Buttery croissant filled with rich chocolate",
         badge: "Popular",
-        icon: "fa-bread-slice"
+        image: "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=400&h=300&fit=crop"
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ const menuItems = [
         price: 35.99,
         description: "Classic red velvet with cream cheese frosting",
         badge: "New",
-        icon: "fa-birthday-cake"
+        image: "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?w=400&h=300&fit=crop"
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ const menuItems = [
         price: 6.99,
         description: "Traditional sourdough with perfect crust",
         badge: "",
-        icon: "fa-bread-slice"
+        image: "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?w=400&h=300&fit=crop"
     },
     {
         id: 4,
@@ -34,7 +34,7 @@ const menuItems = [
         price: 12.99,
         description: "Dozen of warm, gooey chocolate chip cookies",
         badge: "Best Seller",
-        icon: "fa-cookie-bite"
+        image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&h=300&fit=crop"
     },
     {
         id: 5,
@@ -43,7 +43,7 @@ const menuItems = [
         price: 3.99,
         description: "Crispy outside, soft inside French bread",
         badge: "",
-        icon: "fa-bread-slice"
+        image: "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=400&h=300&fit=crop"
     },
     {
         id: 6,
@@ -52,7 +52,7 @@ const menuItems = [
         price: 5.99,
         description: "Fresh strawberries on vanilla custard",
         badge: "Seasonal",
-        icon: "fa-cheese"
+        image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400&h=300&fit=crop"
     },
     {
         id: 7,
@@ -61,7 +61,7 @@ const menuItems = [
         price: 199.99,
         description: "Custom designed multi-tier wedding cake",
         badge: "Premium",
-        icon: "fa-birthday-cake"
+        image: "https://images.unsplash.com/photo-1535254973040-607b474cb50d?w=400&h=300&fit=crop"
     },
     {
         id: 8,
@@ -70,7 +70,7 @@ const menuItems = [
         price: 10.99,
         description: "Healthy oatmeal cookies with raisins",
         badge: "",
-        icon: "fa-cookie"
+        image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&h=300&fit=crop"
     },
     {
         id: 9,
@@ -79,7 +79,7 @@ const menuItems = [
         price: 5.99,
         description: "Nutritious whole wheat bread loaf",
         badge: "Healthy",
-        icon: "fa-bread-slice"
+        image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=300&fit=crop"
     },
     {
         id: 10,
@@ -88,7 +88,7 @@ const menuItems = [
         price: 3.99,
         description: "Fresh blueberry muffins with sugar topping",
         badge: "",
-        icon: "fa-ice-cream"
+        image: "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=400&h=300&fit=crop"
     },
     {
         id: 11,
@@ -97,7 +97,7 @@ const menuItems = [
         price: 29.99,
         description: "New York style creamy cheesecake",
         badge: "Popular",
-        icon: "fa-cheese"
+        image: "https://images.unsplash.com/photo-1508737804141-4c3b688e2546?w=400&h=300&fit=crop"
     },
     {
         id: 12,
@@ -106,7 +106,61 @@ const menuItems = [
         price: 8.99,
         description: "Decorated sugar cookies, perfect for gifts",
         badge: "",
-        icon: "fa-cookie"
+        image: "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=400&h=300&fit=crop"
+    },
+    {
+        id: 13,
+        name: "Chocolate Cake",
+        category: "cake",
+        price: 45.99,
+        description: "Rich chocolate layer cake with ganache",
+        badge: "Popular",
+        image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=300&fit=crop"
+    },
+    {
+        id: 14,
+        name: "Danish Pastry",
+        category: "pastry",
+        price: 4.49,
+        description: "Flaky pastry with fruit filling",
+        badge: "",
+        image: "https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=400&h=300&fit=crop"
+    },
+    {
+        id: 15,
+        name: "Macarons",
+        category: "cookie",
+        price: 15.99,
+        description: "Assorted French macarons box",
+        badge: "Premium",
+        image: "https://images.unsplash.com/photo-1569864358642-9d1684040f43?w=400&h=300&fit=crop"
+    },
+    {
+        id: 16,
+        name: "Focaccia Bread",
+        category: "bread",
+        price: 7.99,
+        description: "Italian herb focaccia with olive oil",
+        badge: "",
+        image: "https://images.unsplash.com/photo-1565299543923-37dd37887442?w=400&h=300&fit=crop"
+    },
+    {
+        id: 17,
+        name: "Tiramisu",
+        category: "cake",
+        price: 32.99,
+        description: "Classic Italian coffee-flavored dessert",
+        badge: "Chef's Special",
+        image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop"
+    },
+    {
+        id: 18,
+        name: "Cinnamon Rolls",
+        category: "pastry",
+        price: 6.99,
+        description: "Warm cinnamon rolls with cream cheese glaze",
+        badge: "Hot",
+        image: "https://images.unsplash.com/photo-1609126979532-27fa9e24d1b0?w=400&h=300&fit=crop"
     }
 ];
 
@@ -130,10 +184,10 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeAnimations();
 });
 
-// Render Menu Items
+// Update renderMenu function
 function renderMenu(category) {
-    const filteredItems = category === 'all' 
-        ? menuItems 
+    const filteredItems = category === 'all'
+        ? menuItems
         : menuItems.filter(item => item.category === category);
     
     menuGrid.innerHTML = '';
@@ -143,7 +197,7 @@ function renderMenu(category) {
         menuItemEl.className = 'menu-item';
         menuItemEl.innerHTML = `
             <div class="menu-item-image">
-                <i class="fas ${item.icon}"></i>
+                <img src="${item.image}" alt="${item.name}" loading="lazy">
                 ${item.badge ? `<span class="menu-item-badge">${item.badge}</span>` : ''}
             </div>
             <div class="menu-item-content">
@@ -176,7 +230,7 @@ function addToCart(itemId) {
     showNotification('Item added to cart!');
 }
 
-// Update Cart
+// Update cart item rendering
 function updateCart() {
     cartItems.innerHTML = '';
     let total = 0;
@@ -188,7 +242,7 @@ function updateCart() {
         cartItemEl.className = 'cart-item';
         cartItemEl.innerHTML = `
             <div class="cart-item-image">
-                <i class="fas ${item.icon}"></i>
+                <img src="${item.image}" alt="${item.name}">
             </div>
             <div class="cart-item-details">
                 <div class="cart-item-name">${item.name}</div>
