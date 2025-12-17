@@ -204,7 +204,7 @@ function renderMenu(category) {
                 <h3>${item.name}</h3>
                 <p class="menu-item-description">${item.description}</p>
                 <div class="menu-item-footer">
-                    <span class="menu-item-price">$${item.price}</span>
+                    <span class="menu-item-price">₹${item.price}</span>
                     <button class="add-to-cart" onclick="addToCart(${item.id})">
                         <i class="fas fa-plus"></i> Add
                     </button>
@@ -246,7 +246,7 @@ function updateCart() {
             </div>
             <div class="cart-item-details">
                 <div class="cart-item-name">${item.name}</div>
-                <div class="cart-item-price">$${item.price}</div>
+                <div class="cart-item-price">₹${item.price}</div>
                 <div class="cart-item-quantity">
                     <button class="quantity-btn" onclick="updateQuantity(${item.id}, -1)">-</button>
                     <span>${item.quantity}</span>
@@ -260,7 +260,7 @@ function updateCart() {
         cartItems.appendChild(cartItemEl);
     });
     
-    cartTotal.textContent = `$${total.toFixed(2)}`;
+    cartTotal.textContent = `₹${total.toFixed(2)}`;
     cartCount.textContent = cart.reduce((sum, item) => sum + item.quantity, 0);
     
     if (cart.length === 0) {
