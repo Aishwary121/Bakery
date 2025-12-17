@@ -25,7 +25,7 @@ const menuItems = [
         price: 6.99,
         description: "Traditional sourdough with perfect crust",
         badge: "",
-        image: "https://images.unsplash.com/photo-1585478259715-876acc5be8eb?w=400&h=300&fit=crop"
+        image: "https://images.unsplash.com/photo-1598373182307-327049a8635c?w=400&h=300&fit=crop"
     },
     {
         id: 4,
